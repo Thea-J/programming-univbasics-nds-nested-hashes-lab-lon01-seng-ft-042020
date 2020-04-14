@@ -30,6 +30,6 @@ end
 #Update the value at the given co-ords (row & key)
 #Return the updated AoH
 def aoh_update(aoh, row, key, new_value)
-aoh[row][key]
+aoh[row][key] = new_value
 aoh
 end
