@@ -12,6 +12,7 @@ def assembled_aoh
 end
 
 #Build an Aoh using the  above constants via literal syntax
+#Remember to use $ with global variables
 def literal_aoh
 [
   $DON_G = { name:  "Don Gately", occupation: "Live-in Staff" },
