@@ -22,13 +22,14 @@ BRUCE_G = { name:  "Bruce Green", occupation: "Fan of Mildred" }
   ]
 end
 
-#Return the value at the given co-ords
+#Return the value at the given co-ords (row & key)
 def aoh_lookup(aoh, row, key)
   aoh[row][key]
 end
 
-#
+#Update the value at the given co-ords (row & key)
+#Return the updated AoH
 def aoh_update(aoh, row, key, new_value)
-  # Update the AoH data at row and key to have the value of new_value
-  # Return the updated AoH
+aoh[row][key]
+aoh
 end
